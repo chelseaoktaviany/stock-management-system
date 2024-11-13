@@ -1,0 +1,17 @@
+{
+  "name": "simple-stock-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "npm run dev --prefix frontend",
+    "api:dev": "npm run dev --prefix backend",
+    "web:dev": "concurrently \"npm run client:dev\" \"npm run api:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
